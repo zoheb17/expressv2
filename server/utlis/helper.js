@@ -16,4 +16,9 @@ async function writeDB(content) {
 
     
 }
-export {readDB,writeDB}
+
+ function otp() {
+     return Math.floor(Math.random() * (9999-1000)+1000)
+    
+}
+export {readDB,writeDB,otp}

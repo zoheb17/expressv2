@@ -7,7 +7,47 @@
     "phone": 9022442668,
     "password": "$2b$10$IytPOVmBuUT/jgyAUwC9Oed6882TkrSdx9X.WZqy6ahyoaVMYATbG",
     "isverfied": false,
-    "task": [],
+    "task": [
+      {
+        "id": "7d021172-71e3-4832-9865-05e18b12f063",
+        "taskName": "play football for 2 hours",
+        "description": " go and win ",
+        "deadline": "90mins"
+      }
+    ],
     "accountCreated": "Wed Nov 26 2025 16:23:32 GMT+0000 (Coordinated Universal Time)"
+  },
+  {
+    "id": "d1c15131-6a59-4437-8c13-c255a3b95f9e",
+    "name": "abdulla",
+    "age": 19,
+    "email": "abudllahjawed2021@gmail.com",
+    "phone": 9116150100,
+    "password": "$2b$10$uyeys3ofasYEtLTBWhwhp.FMyPwQ.LJ0JKZ.ZoY8JtfY6NoPy8rke",
+    "isverfied": false,
+    "task": [],
+    "accountCreated": "Thu Nov 27 2025 08:48:26 GMT+0000 (Coordinated Universal Time)"
+  },
+  {
+    "id": "cc907ad6-477c-478f-8e4b-4d7ffb1894f4",
+    "name": "kamran",
+    "age": 19,
+    "email": "itzkamranforreal@gmail.com",
+    "phone": 8519897600,
+    "password": "$2b$10$EwkpPmUkvgX.Dhik7U04/.ZGcG.fnQZkYX/lyJqJHy8zDnNFDZfrC",
+    "isverfied": false,
+    "task": [],
+    "accountCreated": "Thu Nov 27 2025 08:49:45 GMT+0000 (Coordinated Universal Time)"
+  },
+  {
+    "id": "5b639ae2-0198-4269-8618-e206c2afd729",
+    "name": "mohd afnaan",
+    "age": 19,
+    "email": "mohdafnaan833@gmail.com",
+    "phone": 9573503729,
+    "password": "$2b$10$2HJZqD4C7wyNy1wzTkpIjulkH1ed8xjH7gDlgxEKC.d/QA2Vuw9ne",
+    "isverfied": true,
+    "task": [],
+    "accountCreated": "Thu Nov 27 2025 15:48:23 GMT+0000 (Coordinated Universal Time)"
   }
 ]

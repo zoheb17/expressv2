@@ -1,9 +1,10 @@
 import express from "express"
 
 import dotenv from "dotenv";
-import publicRouter from "./controller/public/index.js"
 dotenv.config()
-
+import publicRouter from "./controller/public/public.js"
+import middleware from "./middleware/auth.js"
+import privateRouter from "./controller/private/private.js"
 const port = process.env.PORT 
 const app=express();
 app.use(express.json());
@@ -20,6 +21,8 @@ app.get("/",(req,res)=>{
 })
 
 app.use("/public",publicRouter)
+app.use(middleware) 
+app.use('/private',privateRouter)
 
 app.listen(port,()=>{
     console.log(`server is running http://localhost:${port}`);
